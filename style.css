@@ -34,3 +34,30 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+img{
+    width: 100%;    
+}
+body{
+    color: var(text-decoration-color);
+}
+
+.nav{
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 35px;
+}
+
+header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+

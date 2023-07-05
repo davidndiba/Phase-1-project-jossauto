@@ -35,13 +35,26 @@
     box-sizing: border-box;
 }
 
+section{
+    padding: 4rem 0 2rem;
+}
+
 img{
     width: 100%;    
 }
 body{
-    color: var(text-decoration-color);
+    margin: 0;
+    font-family: 'Roboto' , sans-serif;
+    color:whitesmoke;
+    background: black;
 }
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
 .nav{
     max-width: 1068px;
     margin-left: auto;
@@ -52,7 +65,7 @@ body{
     padding: 20px 35px;
 }
 
-header{
+ header{
     display: block;
     width: 100%;
     position: fixed;
@@ -61,3 +74,82 @@ header{
     z-index: 100;
 }
 
+#icon{
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    display: none;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color:goldenrod;
+    align-items: flex-start;
+}
+
+.title span{
+    color:orangered;
+    align-items: flex-start;
+}
+
+.nav-bar{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.nav-bar a {
+    color:whitesmoke;
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+.nav-bar a:hover{
+    color: red;
+    border-bottom: 3px solid red;
+
+}
+
+#search-tag{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.searchbox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+    box-shadow: 4px 4px 20px rgb(15 54 55 /10%);
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    clip-path: circle(0% at 100% 0%);
+}
+
+.searchbox.active{
+    clip-path: circle(144% at 100% 0%);
+    transition: 0.4s;
+}
+
+.searchbox input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: small;
+}
+
+.home{
+    max-width: 1300px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    min-height: 640px;
+    background: url(./vinal-gunasekera-cJOxhYhkDmA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+
+}

@@ -28,6 +28,33 @@
           "brought-on":"14/05/2023",
           "service_description": "Brake replacement",
           "collection-date": "15/05/2023"
+        },
+        {
+          "car_id": 3,
+          "make": "Ford",
+          "model": "F-150",
+          "year": 2020,
+          "brought-on":"14/05/2023",
+          "service_description": "Brake replacement",
+          "collection-date": "15/05/2023"
+        },
+        {
+          "car_id": 3,
+          "make": "Ford",
+          "model": "F-150",
+          "year": 2020,
+          "brought-on":"14/05/2023",
+          "service_description": "Brake replacement",
+          "collection-date": "15/05/2023"
+        },
+        {
+          "car_id": 3,
+          "make": "Ford",
+          "model": "F-150",
+          "year": 2020,
+          "brought-on":"14/05/2023",
+          "service_description": "Brake replacement",
+          "collection-date": "15/05/2023"
         }
       ]
     },
@@ -49,5 +76,37 @@
           "price": 5.0
         }
       ]
-    }
+    },
+  "rental-car":{
+    "cars": [
+      {
+        "make": "Nissan",
+        "model": "Bluebird Sylphy",
+        "year": 2020,
+        "rental_price": 50,
+        "available": true
+      },
+      {
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "rental_price": 45,
+        "available": false
+      },
+      {
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "rental_price": 75,
+        "available": true
+      },
+      {
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 2018,
+        "rental_price": 40,
+        "available": true
+      }
+    ]
   }
+}

@@ -87,6 +87,15 @@ body{
     align-items: flex-start;
 }
 
+
+#rounded{
+
+height: 500px;
+width: 500px;
+border-radius: 300px;
+
+}
+
 .title span{
     color:orangered;
     align-items: flex-start;
@@ -155,33 +164,7 @@ body{
 
 }
 
-.img{
-    max-width: 1300px;
+#img{
     display: flex;
-    margin: auto;
-    align-items: center;
-    width: 100%;
-    min-height: 640px;
-    padding-bottom: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    overflow: hidden;
-
-}
-
-
-.img{
-    max-width: 1300px;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    width: 100%;
-    min-height: 640px;
-    padding-bottom: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-position: center left;
-
-} 
+    float: right;
+}    

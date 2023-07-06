@@ -168,3 +168,37 @@ border-radius: 300px;
     display: flex;
     float: right;
 }    
+ .home{
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background: url(./Freshi\ off\ the\ booth\(Image0\).odg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+ }
+
+ .main-idea{
+    padding-left: 130px;
+ }
+  .main-idea h1 {
+    font-size: smaller;
+  }
+  .main-idea span {
+    color: orange;
+  }
+
+  .main-idea p {
+    font-size: medium;
+    font-weight: bolder;
+    margin: 0.5rem 0 1.2rem;
+  }
+  .button{
+    padding: 10px 22px;
+    background: white;
+    color: red;
+    font-weight: 400;
+  }

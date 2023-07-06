@@ -198,7 +198,28 @@ border-radius: 300px;
   }
   .button{
     padding: 10px 22px;
-    background: white;
-    color: red;
+    background: red;
+    color:whitesmoke;
     font-weight: 400;
   }
+
+  .garage{
+    text-align: center;
+  }
+  
+  .garage span{
+    font-weight: lighter;
+    color: red;
+  }
+
+  .garage p{
+    font-size: smaller;
+    font-weight: bolder;
+  }
+
+  .garage h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+  }
+  

@@ -13,47 +13,47 @@
         },
         {
           "car_id": 2,
-          "make": "Honda",
-          "model": "Accord",
-          "year": 2019,
-          "brought-on":"14/05/2023",
+          "make": "Nissan",
+          "model": "Skykine",
+          "year": 2014,
+          "brought-on":"07/05/2023",
           "service_description": "Engine repair",
-          "collection-date": "15/05/2023"
+          "collection-date": "18/05/2023"
         },
         {
           "car_id": 3,
-          "make": "Ford",
-          "model": "F-150",
+          "make": "Nissan",
+          "model": "Note",
           "year": 2020,
-          "brought-on":"14/05/2023",
+          "brought-on":"15/05/2023",
           "service_description": "Brake replacement",
           "collection-date": "15/05/2023"
         },
         {
-          "car_id": 3,
-          "make": "Ford",
-          "model": "F-150",
-          "year": 2020,
-          "brought-on":"14/05/2023",
+          "car_id": 4,
+          "make": "Nissan",
+          "model": "Wingroad",
+          "year": 2017,
+          "brought-on":"10/05/2023",
           "service_description": "Brake replacement",
-          "collection-date": "15/05/2023"
+          "collection-date": "12/05/2023"
         },
         {
-          "car_id": 3,
-          "make": "Ford",
-          "model": "F-150",
-          "year": 2020,
-          "brought-on":"14/05/2023",
-          "service_description": "Brake replacement",
-          "collection-date": "15/05/2023"
+          "car_id": 5,
+          "make": "Nissan",
+          "model": "Patrol",
+          "year": 2019,
+          "brought-on":"10/05/2023",
+          "service_description": "Wheel Alignment",
+          "collection-date": "20/05/2023"
         },
         {
-          "car_id": 3,
-          "make": "Ford",
-          "model": "F-150",
-          "year": 2020,
-          "brought-on":"14/05/2023",
-          "service_description": "Brake replacement",
+          "car_id": 6,
+          "make": "Nissan",
+          "model": "Dualis",
+          "year": 2016,
+          "brought-on":"13/05/2023",
+          "service_description": "General Service",
           "collection-date": "15/05/2023"
         }
       ]
@@ -63,50 +63,97 @@
         {
           "item_id": 1,
           "name": "Tire",
-          "price": 50.0
+          "description":"Yana tires",
+          "price": 6500.0,
+          "quantity":68
         },
         {
           "item_id": 2,
           "name": "Oil Filter",
-          "price": 10.0
+          "description":"Nissan ft-05",
+          "price": 2500.0,
+          "quantity":27
         },
         {
           "item_id": 3,
           "name": "Spark Plug",
-          "price": 5.0
+          "description":"Denso",
+          "price": 500.0,
+          "quantity":22
+        },
+        {
+          "item_id": 4,
+          "name": "Engine oil",
+          "description":"Eneos 5l",
+          "price": 3800.0,
+          "quantity":16
+        },
+        {
+          "item_id": 5,
+          "name": "Rims",
+          "description":"Mercedes AMG",
+          "price": 500.0,
+          "quantity":8
         }
       ]
     },
   "rental-car":{
     "cars": [
       {
+        "cars-id":1,
         "make": "Nissan",
         "model": "Bluebird Sylphy",
         "year": 2020,
-        "rental_price": 50,
+        "rental_price": 3500,
+        "capacity":"5 people",
         "available": true
       },
       {
-        "make": "Honda",
-        "model": "Civic",
+        "cars-id":2,
+        "make": "Nissan",
+        "model": "GT-R",
         "year": 2019,
-        "rental_price": 45,
+        "rental_price": 8500,
+        "capacity":"5 people",
         "available": false
       },
       {
-        "make": "Ford",
-        "model": "Mustang",
+        "cars-id":3,
+        "make": "Nissan",
+        "model": "Dualis",
         "year": 2021,
-        "rental_price": 75,
+        "rental_price":6500,
+        "capacity":"7 people",
         "available": true
       },
       {
-        "make": "Chevrolet",
-        "model": "Cruze",
+        "cars-id":4,
+        "make": "Nissan",
+        "model": "Patrol",
         "year": 2018,
-        "rental_price": 40,
+        "rental_price": 4000,
+        "capacity":"7 people",
+        "available": true
+      },
+      {
+        "cars-id":5,
+        "make": "Nissan",
+        "model": "Navara",
+        "year": 2018,
+        "rental_price": 4000,
+        "capacity":"7 people",
+        "available": true
+      },
+      {
+        "cars-id":6,
+        "make": "Nissan",
+        "model": "Skykine",
+        "year": 2018,
+        "rental_price": 4000,
+        "capacity":"7 people",
         "available": true
       }
+
     ]
   }
 }

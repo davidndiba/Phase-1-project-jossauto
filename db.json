@@ -1,159 +1,123 @@
 {
-    "garage": {
-      "cars_in_service": [
-        {
-          "car_id": 1,
-          "make": "Nissan T32",
-          "model": "X-trail",
-          "year": 2018,
-          "brought-on":"14/05/2023",
-          "service_description": "Routine maintenance",
-          "service-fee": "15,000",
-          "collection-date": "15/05/2023"
-        },
-        {
-          "car_id": 2,
-          "make": "Nissan",
-          "model": "Skykine",
-          "year": 2014,
-          "brought-on":"07/05/2023",
-          "service_description": "Engine repair",
-          "collection-date": "18/05/2023"
-        },
-        {
-          "car_id": 3,
-          "make": "Nissan",
-          "model": "Note",
-          "year": 2020,
-          "brought-on":"15/05/2023",
-          "service_description": "Brake replacement",
-          "collection-date": "15/05/2023"
-        },
-        {
-          "car_id": 4,
-          "make": "Nissan",
-          "model": "Wingroad",
-          "year": 2017,
-          "brought-on":"10/05/2023",
-          "service_description": "Brake replacement",
-          "collection-date": "12/05/2023"
-        },
-        {
-          "car_id": 5,
-          "make": "Nissan",
-          "model": "Patrol",
-          "year": 2019,
-          "brought-on":"10/05/2023",
-          "service_description": "Wheel Alignment",
-          "collection-date": "20/05/2023"
-        },
-        {
-          "car_id": 6,
-          "make": "Nissan",
-          "model": "Dualis",
-          "year": 2016,
-          "brought-on":"13/05/2023",
-          "service_description": "General Service",
-          "collection-date": "15/05/2023"
-        }
-      ]
+  "garage":[
+    {
+      "id": 1,
+      "make": "Nissan",
+      "model": "Skykine",
+      "year": 2014,
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Nissan_SKYLINE_250GT_%28V36%29_front.JPG/800px-Nissan_SKYLINE_250GT_%28V36%29_front.JPG?20140330145803",
+      "brought-on":"07/05/2023",
+      "service_description": "Paint Work",
+      "collection-date": "18/05/2023"
     },
-    "auto_shop": {
-      "items_for_sale": [
-        {
-          "item_id": 1,
-          "name": "Tire",
-          "description":"Yana tires",
-          "price": 6500.0,
-          "quantity":68
-        },
-        {
-          "item_id": 2,
-          "name": "Oil Filter",
-          "description":"Nissan ft-05",
-          "price": 2500.0,
-          "quantity":27
-        },
-        {
-          "item_id": 3,
-          "name": "Spark Plug",
-          "description":"Denso",
-          "price": 500.0,
-          "quantity":22
-        },
-        {
-          "item_id": 4,
-          "name": "Engine oil",
-          "description":"Eneos 5l",
-          "price": 3800.0,
-          "quantity":16
-        },
-        {
-          "item_id": 5,
-          "name": "Rims",
-          "description":"Mercedes AMG",
-          "price": 500.0,
-          "quantity":8
-        }
-      ]
+    {
+      "id": 2,
+      "make": "Nissan",
+      "model": "Note",
+      "year": 2014,
+      "image":"https://media.gettyimages.com/id/538262565/photo/nissan-note-compact-mpv.jpg?s=612x612&w=gi&k=20&c=_hop6ogC0n4UTO3TGCKXLTRQic7qwXPU3pWlZzKp4v8=",
+      "brought-on":"07/05/2023",
+      "service_description": "Body Works",
+      "collection-date": "18/05/2023"
     },
-  "rental-car":{
-    "cars": [
-      {
-        "cars-id":1,
-        "make": "Nissan",
-        "model": "Bluebird Sylphy",
-        "year": 2020,
-        "rental_price": 3500,
-        "capacity":"5 people",
-        "available": true
-      },
-      {
-        "cars-id":2,
-        "make": "Nissan",
-        "model": "GT-R",
-        "year": 2019,
-        "rental_price": 8500,
-        "capacity":"5 people",
-        "available": false
-      },
-      {
-        "cars-id":3,
-        "make": "Nissan",
-        "model": "Dualis",
-        "year": 2021,
-        "rental_price":6500,
-        "capacity":"7 people",
-        "available": true
-      },
-      {
-        "cars-id":4,
-        "make": "Nissan",
-        "model": "Patrol",
-        "year": 2018,
-        "rental_price": 4000,
-        "capacity":"7 people",
-        "available": true
-      },
-      {
-        "cars-id":5,
-        "make": "Nissan",
-        "model": "Navara",
-        "year": 2018,
-        "rental_price": 4000,
-        "capacity":"7 people",
-        "available": true
-      },
-      {
-        "cars-id":6,
-        "make": "Nissan",
-        "model": "Skykine",
-        "year": 2018,
-        "rental_price": 4000,
-        "capacity":"7 people",
-        "available": true
-      }
+    {
+      "id": 3,
+      "make": "Nissan",
+      "model": "Wingroad",
+      "year": 2014,
+      "image":"https://www.carjunction.com/car_images2/89928_101869/101869aa-(3)_578x417.jpg",
+      "brought-on":"07/05/2023",
+      "service_description": "Wheel Alignment",
+      "collection-date": "18/05/2023"
+    },
+    {
+      "id": 4,
+      "make": "Nissan",
+      "model": "Patrol",
+      "year": 2014,
+      "image":"https://i0.wp.com/engineswapdepot.com/wp-content/uploads/2018/02/Nissan-Patrol-with-a-Turbo-Diesel-Inline-Six-06.jpg?ssl=1",
+      "brought-on":"07/05/2023",
+      "service_description": "Engine repair",
+      "collection-date": "18/05/2023"
+    },
+    {
+      "id": 5,
+      "make": "Nissan",
+      "model": "AD",
+      "year": 2014,
+      "image":"https://upload.wikimedia.org/wikipedia/commons/6/62/Nissan_AD_Van_Y10_001.JPG",
+      "brought-on":"07/05/2023",
+      "service_description": "General Service",
+      "collection-date": "18/05/2023"
+    },
+    {
+      "id": 6,
+      "make": "Nissan",
+      "model": "Navara",
+      "year": 2014,
+      "image":"https://www.nissankenya.com/media/zzzpqnyk/nissan-navara-design-01-a-black-interlock-grille-with-new-lava-orange-accents.jpg?anchor=center&mode=crop&width=950&height=520&rnd=133234253674130000",
+      "brought-on":"07/05/2023",
+      "service_description": "Engine repair",
+      "collection-date": "18/05/2023"
+    }
+    
+    
 
-    ]
-  }
+  ],
+  "car":[
+    {
+      "id":1,
+      "make": "Nissan",
+      "model": "Navara",
+      "year": 2018,
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Nissan_SKYLINE_250GT_%28V36%29_front.JPG/800px-Nissan_SKYLINE_250GT_%28V36%29_front.JPG?20140330145803",
+      "rental_price": 8000,
+      "capacity":"7 people",
+      "available": true
+    },
+
+    {
+      "id":2,
+      "make": "Nissan",
+      "model": "Terra",
+      "year": 2018,
+      "image":"https://www.nissankenya.com/new-vehicles/browse-range/navara/",
+      "rental_price": 8000,
+      "capacity":"7 people",
+      "available": true
+    },
+    
+    {
+      "id":3,
+      "make": "Nissan",
+      "model": "Navara",
+      "year": 2018,
+      "image":"https://www.nissankenya.com/new-vehicles/browse-range/navara/",
+      "rental_price": 8000,
+      "capacity":"7 people",
+      "available": true
+    },
+    
+    {
+      "id":4,
+      "make": "Nissan",
+      "model": "Navara",
+      "year": 2018,
+      "image":"https://www.nissankenya.com/new-vehicles/browse-range/navara/",
+      "rental_price": 8000,
+      "capacity":"7 people",
+      "available": true
+    },
+    
+    {
+      "id":5,
+      "make": "Nissan",
+      "model": "Navara",
+      "year": 2018,
+      "image":"https://www.nissankenya.com/new-vehicles/browse-range/navara/",
+      "rental_price": 8000,
+      "capacity":"7 people",
+      "available": true
+    }
+  ]
 }

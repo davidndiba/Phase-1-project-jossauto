@@ -1,0 +1,167 @@
+{
+    "garage": {
+      "cars_in_service": [
+      
+        {
+          "car_id": 2,
+          "make": "Nissan",
+          "model": "Skykine",
+          "year": 2014,
+          "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Nissan_SKYLINE_250GT_%28V36%29_front.JPG/800px-Nissan_SKYLINE_250GT_%28V36%29_front.JPG?20140330145803",
+          "brought-on":"07/05/2023",
+          "service_description": "Engine repair",
+          "collection-date": "18/05/2023"
+        },
+        {
+          "car_id": 3,
+          "make": "Nissan",
+          "model": "Note",
+          "year": 2020,
+          "image":"https://kaba.co.ke/nissan-note-medalist/12424",
+          "brought-on":"15/05/2023",
+          "service_description": "Brake replacement",
+          "collection-date": "15/05/2023"
+        },
+        {
+          "car_id": 4,
+          "make": "Nissan",
+          "model": "Wingroad",
+          "year": 2017,
+          "image":"https://www.bestcarsforsaleinkenya.co.ke/nissan/wingroad-for-sale-in-kenya/",
+          "brought-on":"10/05/2023",
+          "service_description": "Brake replacement",
+          "collection-date": "12/05/2023"
+        },
+        {
+          "car_id": 5,
+          "make": "Nissan",
+          "model": "Patrol",
+          "year": 2019,
+          "image":"https://www.youtube.com/watch?v=yxSGog86PUw",
+          "brought-on":"10/05/2023",
+          "service_description": "Wheel Alignment",
+          "collection-date": "20/05/2023"
+        },
+        {
+          "car_id": 6,
+          "make": "Nissan",
+          "model": "AD",
+          "year": 2016,
+          "image":"https://sbimotor.com/cars/NISSAN/AD/34998254",
+          "brought-on":"13/05/2023",
+          "service_description": "General Service",
+          "collection-date": "15/05/2023"
+        }
+      ]
+    },
+    "auto_shop": {
+      "items_for_sale": [
+        {
+          "item_id": 1,
+          "name": "Tire",
+          "description":"Yana tires",
+          "image":"https://en.wikipedia.org/wiki/Tire",
+          "price": 6500.0,
+          "quantity":68
+        },
+        {
+          "item_id": 2,
+          "name": "Oil Filter",
+          "description":"Nissan ft-05",
+          "image":"https://www.amazon.in/Genuine-Nissan-15208-65F0E-Oil-Filter/dp/B00HKSM1A2",
+          "price": 2500.0,
+          "quantity":27
+        },
+        {
+          "item_id": 3,
+          "name": "Spark Plug",
+          "description":"Denso",
+          "image":"https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwilm5Dd9fn_AhWDqNUKHRfrBCcYABAOGgJ3cw&ohost=www.google.com&cid=CAASJeRo5BZMybdTjmaUa1X1snDDNJ6PaOKPWzxGyYD-EfR8ndy1NWs&sig=AOD64_0vOw2hOZj3ncrh3uqMmhicoDgGIQ&ctype=5&q=&ved=2ahUKEwiZ8Ybd9fn_AhWEUKQEHZ8CALQQ9aACKAB6BAgFEBs&adurl=",
+          "price": 500.0,
+          "quantity":22
+        },
+        {
+          "item_id": 4,
+          "name": "Engine oil",
+          "description":"Eneos 5l",
+          "image":"https://www.eneos.us/wp-content/uploads/2021/03/ENEOS-Homepage-TheBrand.png",
+          "price": 3800.0,
+          "quantity":16
+        },
+        {
+          "item_id": 5,
+          "name": "Rims",
+          "description":"Mercedes AMG",
+          "image":"https://www.alibaba.com/product-detail/-M1015-car-alloy-wheels-14_1600729929236.html?spm=a2700.7724857.0.0.23fd484floyR75",
+          "price": 500.0,
+          "quantity":8
+        }
+      ]
+    },
+  "rental-car":{
+    "cars": [
+      {
+        "cars-id":1,
+        "make": "Nissan",
+        "model": "Bluebird Sylphy",
+        "year": 2020,
+        "image":"https://www.autoskenya.com/en/ads/ad-nissan-bluebird-sylphy-nairobi-nairobi-7640",
+        "rental_price": 4500,
+        "capacity":"5 people",
+        "available": true
+      },
+      {
+        "cars-id":2,
+        "make": "Nissan",
+        "model": "Note",
+        "year": 2019,
+        "image":"https://autochek.africa/ke/car/Nissan-Note-ref-kJXKEdM_6",
+        "rental_price": 3500,
+        "capacity":"5 people",
+        "available": false
+      },
+      {
+        "cars-id":3,
+        "make": "Nissan",
+        "model": "Terra",
+        "year": 2021,
+        "image":"https://www.nissankenya.com/experience-nissan/what-s-new/all-new-nissan-terra-expands-suv-line-up-in-kenya/",
+        "rental_price":7500,
+        "capacity":"7 people",
+        "available": true
+      },
+      {
+        "cars-id":4,
+        "make": "Nissan",
+        "model": "Patrol",
+        "year": 2018,
+        "image":"https://www.carsales.com.au/editorial/details/nissan-patrol-warrior-prototype-2023-review-141165/",
+        "rental_price": 4000,
+        "capacity":"7 people",
+        "available": true
+      },
+      {
+        "cars-id":5,
+        "make": "Nissan",
+        "model": "Navara",
+        "year": 2018,
+        "image":"https://www.nissankenya.com/new-vehicles/browse-range/navara/",
+        "rental_price": 8000,
+        "capacity":"7 people",
+        "available": true
+      },
+      {
+        "cars-id":6,
+        "make": "Nissan",
+        "model": "Skykine",
+        "year": 2018,
+        "image":"url(assets/nissan skyline car-hire.jpg)",
+        "rental_price": 5500,
+        "capacity":"5 people",
+        "available": true
+      }
+
+    ]
+  }
+}
+

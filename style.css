@@ -222,3 +222,8 @@ border-radius: 300px;
     font-style: italic;
     font-variant: small-caps;
   }
+
+  #small{
+    display: flex;
+    float: left;
+  }

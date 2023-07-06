@@ -19,7 +19,7 @@ let container=document.querySelector("#garage-container")
 
 let img = document.createElement("img");
  img.src=car.image
- img.id=""
+ img.id="small"
 container.appendChild(img)
 
 let test =document.createElement("h1")

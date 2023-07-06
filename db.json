@@ -69,8 +69,8 @@
       "id":1,
       "make": "Nissan",
       "model": "Navara",
-      "year": 2018,
-      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Nissan_SKYLINE_250GT_%28V36%29_front.JPG/800px-Nissan_SKYLINE_250GT_%28V36%29_front.JPG?20140330145803",
+      "year": 2020,
+      "image":"https://www.acecarrentalservices.com/assets/img/services/cabin.jpg",
       "rental_price": 8000,
       "capacity":"7 people",
       "available": true
@@ -81,8 +81,8 @@
       "make": "Nissan",
       "model": "Terra",
       "year": 2018,
-      "image":"https://www.nissankenya.com/new-vehicles/browse-range/navara/",
-      "rental_price": 8000,
+      "image":"https://renterpoint.com/img/Nissan-X-Terra-Rental-Dubai.jpg",
+      "rental_price": 8500,
       "capacity":"7 people",
       "available": true
     },
@@ -90,21 +90,21 @@
     {
       "id":3,
       "make": "Nissan",
-      "model": "Navara",
-      "year": 2018,
-      "image":"https://www.nissankenya.com/new-vehicles/browse-range/navara/",
-      "rental_price": 8000,
-      "capacity":"7 people",
+      "model": "Skyline GT-R",
+      "year": 2014,
+      "image":"https://media.karousell.com/media/photos/products/2020/10/8/sewa_beli_berdepositnissan_sky_1602123608_110a0617.jpg",
+      "rental_price": 5000,
+      "capacity":"5 people",
       "available": true
     },
     
     {
       "id":4,
       "make": "Nissan",
-      "model": "Navara",
+      "model": "Dualis",
       "year": 2018,
-      "image":"https://www.nissankenya.com/new-vehicles/browse-range/navara/",
-      "rental_price": 8000,
+      "image":"https://callaride.co.ke/wp-content/uploads/2022/10/mini-suv-car-hire-1-1.jpg",
+      "rental_price": 7000,
       "capacity":"7 people",
       "available": true
     },
@@ -112,10 +112,10 @@
     {
       "id":5,
       "make": "Nissan",
-      "model": "Navara",
-      "year": 2018,
-      "image":"https://www.nissankenya.com/new-vehicles/browse-range/navara/",
-      "rental_price": 8000,
+      "model": "Patrol",
+      "year": 2016,
+      "image":"https://localcarhires.com/media/thumbs/cars/2023/02/WhatsApp_Image_2022-10-17_at_10.46.46_PM_1.jpeg.800x800_q85_crop-scale.jpg",
+      "rental_price": 6000,
       "capacity":"7 people",
       "available": true
     }

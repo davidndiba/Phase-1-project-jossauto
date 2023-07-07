@@ -95,12 +95,11 @@ body{
 
 height: 500px;
 width: 500px;
-border-radius: 300px;
-
+border-radius: 300%
 }
 
 .title span{
-    color:orangered;
+    color: blueviolet;
     align-items: flex-start;
 }
 
@@ -229,33 +228,6 @@ border-radius: 300px;
     display: flex;
     float: left;
   }
-
-  .car-image{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-
-  .car-image .car-model{
-    flex: 1 1 17rem;
-    position: relative;
-    height: 200px;
-    border-radius: 0.5rem;
-    overflow: hidden;
-  }
-
- .car-image .car-year{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
- }
-
- .car-image .img:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
- }
 
  .header{
   position: absolute;

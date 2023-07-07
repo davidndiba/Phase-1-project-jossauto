@@ -45,16 +45,17 @@ container.appendChild(content);
 function fetchCars(){
     fetch('http://localhost:3000/cars')
     .then(response => response.json())
-    .then(data=>data.forEach(element=>{hireCar(element)}))
+    .then((data)=>data.forEach(element=>hireCar(element)))
     
     }
     
     function hireCar(car){
-    let container=document.querySelector("#cars-container")
+    let container=document.querySelector("#car hire")
     
     let image = document.createElement("img");
      image.src=car.image
     container.appendChild(img)
+    img.innerText =`${car.model}`
     
     let rental_price =document.createElement("h1")
     rental_price.innerText=car.year
@@ -68,6 +69,37 @@ function fetchCars(){
     content.innerText=`service  ${car.rental_price}`
     container.appendChild(content);
     }
+
+    function autoshop(){
+        fetch('http://localhost:3000/auto_shop')
+        .then(response => response.json())
+        .then((data)=>data.forEach(element=>auto(element)))
+        
+        }
+        
+        function auto(car){
+        let container=document.querySelector("#cars-container")
+        
+        let image = document.createElement("img");
+         image.src=car.model
+        container.appendChild(img)
+        img.innerText =`${car.model}`
+        
+        let rental_price =document.createElement("h1")
+        rental_price.innerText=car.year
+        container.appendChild(rental_price)
+        
+        let year = document.createElement("p");
+        year.innerText=car.model
+        container.appendChild(year)
+        
+        let content =document.createElement("h1")
+        content.innerText=`service  ${car.rental_price}`
+        container.appendChild(content);
+        }
+    
+
+
     
 
 

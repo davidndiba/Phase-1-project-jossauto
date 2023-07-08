@@ -27,7 +27,7 @@
   }
 
   .nav-bar{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-around;
     position: relative;
@@ -60,7 +60,7 @@ body{
     margin: 0;
     font-family: 'Roboto' , sans-serif;
     color:whitesmoke;
-    background: black;    
+    background:url(./assets/polina-kuzovkova-ZBdY5SRELnY-unsplash.jpg);    
     line-height: 1.5;
     height: 300%;
     position: static;
@@ -141,12 +141,13 @@ body{
      }
      #img-content{
        display: block;
-       font-size: x-large;
+       font-size: xx-large;
        font-style: italic;
        color: red;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
        font-weight: lighter;
-       font
+       padding: 4;
+       height: 100%;
      }
 
      #img-content span{
@@ -156,6 +157,21 @@ body{
      #service-cars{
         text-align: center;
         align-items: baseline;
+     }
+
+     .btn{
+        position: relative;
+        background: black;
+        color: white;
+        min-width: 200px;
+        min-height: 40px;
+        padding:20px;
+        border-radius: 14%;
+        color: purple;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 120%;
+        font-weight: lighter;
+        overflow: hidden;
      }
   /* .main-idea{
         padding: 10px;

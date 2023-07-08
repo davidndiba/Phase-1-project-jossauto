@@ -8,8 +8,10 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header class="header">
-            </a>
+    <header class="header" data-header>
+        <div class="container">
+        <div class="overlay active" data-overlay></div>
+
             <div class="icons"> 
                 <img  src="./assets/A futuristic  car icon  Drawn in red ink and with  (2) JOSS AUTO.odg" alt="Website-icon"> 
                  <style>
@@ -19,14 +21,26 @@
             </div>
             <div class="nav">
                 <i class="bx bx-menu" id="icon"></i>
+
+                <nav class="navbar active" data-navbar>
             <ul class="nav-bar">
-                <li><a href="#home" class="active">HOME</a></li>
-                <li><a href="#garage">GARAGE</a></li>
-                <li><a href="#car hire">CAR HIRE</a></li>
-                <li><a href="#auto-shop">AUTO-SHOP</a></li>
-                <li><a href="#rescue">RESCUE</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#home" class="navbar-link" data-nav-link>HOME</a></li>
+                <li><a href="#garage" class="navbar-link" data-nav-link>GARAGE</a></li>
+                <li><a href="#car hire"class="navbar-link" data-nav-link>CAR HIRE</a></li>
+                <li><a href="#auto-shop"class="navbar-link" data-nav-link>AUTO-SHOP</a></li>
+                <li><a href="#rescue"class="navbar-link" data-nav-link>RESCUE</a></li>
+                <li><a href="#contact"class="navbar-link" data-nav-link>CONTACT</a></li>
             </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="header-contact">
+                    <a href="tel;0112345678" class="contact-link">0112345678</a>
+                    <span class="contact-time">Mon-Sat:9:00 am - 6.00 pm</span>
+                </div>
+            </div>
+
+            </div>
+        </header>
             <i class="bx bx-search" id="search-tag"></i>
             <div class="search-box container">
                 <input type="search" name="" id="" placeholder="search here">
@@ -47,8 +61,11 @@
                 <img  id="rounded"src="assets/nissan skyline car-hire.jpg" alt="">
             </section>
             <section id="img-content">
-                <h1>Get the best advice & service charges<br>from the best<span> $ CAR DOCTORS $ </span><br>Join the Journey to a new adventure of CARS.</h1>
+                <h1>Get the best advice & service charges from the best<br><span> $ CAR DOCTORS $ . </span><br>Join the Journey to a new adventure of CARS.</h1>
             </section>
+            <section>
+            <button class="btn">CAR HUB</button>
+            </section>11
     <section class="cars" id="service-cars">
         <div id="garage">
             <span>CAR SERVICE EXPERIENCE REDIFINED</span>

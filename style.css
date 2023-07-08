@@ -124,19 +124,26 @@ body{
         padding: 4rem 0 2rem;
     }*/
 
-    .home{
+    #home{
         max-width: 1000px;
         width: auto;
         min-height: 100%;
-        display: flex;
+        display: block;
         align-items: start;
      }
+
+    #home span{
+        color: orange;
+    }
     
+    #display{
+        float: right;
+     }
     
-     .main-idea{
+  /* .main-idea{
         padding: 10px;
      }
-   /* .main-idea h1 {
+    .main-idea h1 {
         font-size: smaller;
       }
       .main-idea span {
@@ -144,11 +151,10 @@ body{
       }
     
       .main-idea p {
-        font-size: medium;
-        font-weight: bolder;
-        margin: 0.5rem 0 1.2rem;
+        text-align: center;
+        font-size: xx-large;
       }
-      .button{
+     /* .button{
         padding: 10px 22px;
         background: red;
         color:whitesmoke;

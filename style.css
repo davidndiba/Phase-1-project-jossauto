@@ -1,4 +1,4 @@
-/*#title {
+#title {
      height:10vh;
      background-repeat: no-repeat;
      background-size:cover;
@@ -21,10 +21,10 @@
     border-bottom: 1px solid black;
     list-style-type: none;
     padding: 10px;
-}*/
+}
 
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400;1,700&display=swap'); */
-*{
+/*{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -82,20 +82,20 @@ body{
     cursor: pointer;
     color: black;
     display: none;
-}*/
+}
 .title{
     font-size: 1.2rem;
     font-weight: bolder;
     color:goldenrod;
     align-items: flex-start;
-}*/
+}
 
 
 #rounded{
 
 height: 500px;
 width: 500px;
-border-radius: 300%
+border-radius: 300%;
 }
 
 .title span{
@@ -113,6 +113,7 @@ border-radius: 300%
     font-size: small;
     text-transform: uppercase;
     font-weight: bolder;
+    float: inline-end;
 
 }
 
@@ -152,33 +153,21 @@ border-radius: 300%
     font-size: small;
 }
 
-.home{
-    max-width: 1300px;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    width: 100%;
-    min-height: 640px;
-    padding-bottom: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center left;
 
-}
 
 #img{
     display: flex;
     float: right;
 }    
  .home{
-    max-width: 1300px;
+    max-width: 1500px;
     margin: auto;
     width: 100%;
-    min-height: 640px;
+    min-height: 50%;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center left;
  }
 
@@ -222,27 +211,27 @@ border-radius: 300%
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-variant: small-caps;
-  }
+  }*/
 
-  #small{
+ 
+
+ 
+
+
+
+.icons{
+    position: flex;
+    top: 20px;
+    right: 20px;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    transition: 0.4s;
     display: flex;
-    float: left;
-  }
+    flex-wrap: wrap-reverse;
+    -webkit-box-pack: end;
+    justify-content: end;
+    margin-top: auto;
 
- .header{
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-right: auto;
-  width: 100%;
-  padding: 40px 15px 10px;
-  padding-inline-start: 60px;
- }
-
- .header .nav{
-  display: flexbox;
-  justify-content: space-between;
-  align-items: center ;
- }
-
-.title img {width: 80%; line-height: normal;display: flex;align-self: flex-start;}
+}

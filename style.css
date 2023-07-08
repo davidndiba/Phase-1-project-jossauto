@@ -139,7 +139,24 @@ body{
     #display{
         float: right;
      }
+     #img-content{
+       display: block;
+       font-size: x-large;
+       font-style: italic;
+       color: red;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: lighter;
+       font
+     }
+
+     #img-content span{
+        color: goldenrod;
+     }
     
+     #service-cars{
+        text-align: center;
+        align-items: baseline;
+     }
   /* .main-idea{
         padding: 10px;
      }

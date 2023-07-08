@@ -1,6 +1,10 @@
 
 document.addEventListener("DOMContentLoaded",initialize)
+let search = document.querySelector("search-box")
 
+document.querySelector("search-tag").onclick = () => {
+    search.classList.toggle("active");
+}
 
 function initialize(){
 fetchData()

@@ -1,27 +1,162 @@
-#title {
-     height:10vh;
-     background-repeat: no-repeat;
-     background-size:cover;
-     text-align: center;
-     text-decoration-color: black;
-     font-style: italic;
-     padding: 10px;
-     font-family: Arial;
-     font-weight: bolder;
-     font-size: smaller;
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
 }
+.icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+  }
+  
+  .icon img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
 
-.navigation-bar ul {
+  .nav-bar{
     display: flex;
+    align-items: center;
     justify-content: space-around;
+    position: relative;
+    column-gap: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    text-decoration: none;
+    max-width: 1098px;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+
+  .nav-bar a {
+    color:red;
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: bolder;
+    float: inline-end;
+
 }
 
-.navigation-bar > ul > li {
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    list-style-type: none;
-    padding: 10px;
+.nav-bar a:hover{
+    color: goldenrod;
+    border-bottom: 3px solid red;
+
 }
+
+body{
+    margin: 0;
+    font-family: 'Roboto' , sans-serif;
+    color:whitesmoke;
+    background: black;    
+    line-height: 1.5;
+    height: 300%;
+    position: static;
+    display: block;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#rounded{
+    height: 500px;
+    width: 500px;
+    border-radius: 300%;
+    display: flex;
+}
+
+#search-tag{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.searchbox{
+        position: flex;
+        left: 0%;
+        top: 110%;
+        right: 0;
+        background-color:blueviolet;
+        box-shadow: 4px 4px 20px rgb(15 54 55 /10%);
+        border: 1px solid red;
+        border-radius: 0.5rem;
+        clip-path: circle(0% at 100% 0%);
+    }
+    
+    .searchbox.active{
+        clip-path: circle(144% at 100% 0%);
+        transition: 0.4s;
+    }
+    
+   .searchbox input {
+        width: 100%;
+        padding: 20px;
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: small;
+    }
+    
+    .nav{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 35px;
+    }
+
+    /*section{
+        padding: 4rem 0 2rem;
+    }*/
+
+    .home{
+        max-width: 1000px;
+        width: auto;
+        min-height: 100%;
+        display: flex;
+        align-items: start;
+     }
+    
+    
+     .main-idea{
+        padding: 10px;
+     }
+   /* .main-idea h1 {
+        font-size: smaller;
+      }
+      .main-idea span {
+        color: orange;
+      }
+    
+      .main-idea p {
+        font-size: medium;
+        font-weight: bolder;
+        margin: 0.5rem 0 1.2rem;
+      }
+      .button{
+        padding: 10px 22px;
+        background: red;
+        color:whitesmoke;
+        font-weight: 400;
+      }
+    
+    
+
 
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400;1,700&display=swap'); */
 /*{
@@ -219,14 +354,13 @@ border-radius: 300%;
 
 
 
-.icons{
+/*.icons{
     position: flex;
     top: 20px;
     right: 20px;
     opacity: 0.9;
     height: 100%;
     width: 100%;
-    border-radius: 100%;
     transition: 0.4s;
     display: flex;
     flex-wrap: wrap-reverse;
@@ -234,4 +368,4 @@ border-radius: 300%;
     justify-content: end;
     margin-top: auto;
 
-}
+}*/

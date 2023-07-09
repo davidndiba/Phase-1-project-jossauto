@@ -27,7 +27,7 @@
   }
 
   .nav-bar{
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     position: relative;
@@ -85,6 +85,7 @@ body{
 #search-tag{
     font-size: 25px;
     cursor: pointer;
+    float: right;
 }
 
 .searchbox{
@@ -97,11 +98,13 @@ body{
         border: 1px solid red;
         border-radius: 0.5rem;
         clip-path: circle(0% at 100% 0%);
+        float: right;
     }
     
     .searchbox.active{
         clip-path: circle(144% at 100% 0%);
         transition: 0.4s;
+        float: right;
     }
     
    .searchbox input {
@@ -111,8 +114,16 @@ body{
         outline: none;
         background: transparent;
         font-size: small;
+        float: right;
+    }
+
+    #search-box{
+        float: right;
     }
     
+    .container{
+        padding-inline: 15px;
+    }
     .nav{
         display:flex;
         align-items: center;
@@ -130,6 +141,17 @@ body{
         min-height: 100%;
         display: block;
         align-items: start;
+        padding: 100px;
+     }
+
+     #home h1{
+    align-items: center;
+    display: block;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-left: 10px;
+    line-height: 2.2;
+    margin-bottom: 80px;
      }
 
     #home span{
@@ -163,16 +185,85 @@ body{
         position: relative;
         background: black;
         color: white;
-        min-width: 200px;
-        min-height: 40px;
-        padding:20px;
-        border-radius: 14%;
+        min-width: 150px;
+        min-height: 1%;
+        padding: 10px;
+        border-radius: 18%;
         color: purple;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 120%;
         font-weight: lighter;
         overflow: hidden;
      }
+
+     .header-contact{
+        display: flex;
+        float: right;
+     }
+
+     .header{
+        position: fixed;
+        top: 0;
+        left:0;
+        bottom: 0;
+        width: 100%;
+        transition: 0.4s;
+        z-index: 4;
+     }
+
+     .header.active{
+        box-shadow: 1pc;
+     }
+
+     .home{
+        padding-top: 200px;
+     }
+
+     .hero-form{
+        border: 1px solid white;
+        box-shadow: 20%;
+        border-radius: 28px;
+        width: 20%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        font-weight: lighter;
+     }
+
+     .input-wrapper{
+        padding: 15px 10px;
+     }
+
+     .input-label{
+        color: black;
+        font-size: larger;
+        margin-bottom: 10px;
+     }
+
+     .input-field{
+        color: black;
+        outline: 2px solid turquoise;
+        outline-offset: 3px;
+        border-radius: 4px;
+        display: flex;
+        transition: 0.4s;
+     }
+
+     .input-field:focus{outline-color:(silver)}
+
+     .input-field::placeholder {color: (black)}
+
+     .hero-form btn {
+        width:30px;
+        height: 30px;
+        margin: 20px;
+        text-transform: uppercase;
+     }
+    
+     
+    
+     
+
+     
   /* .main-idea{
         padding: 10px;
      }

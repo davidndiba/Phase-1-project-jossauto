@@ -10,42 +10,33 @@
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-<header class="header" data-header>
-<div class="overlay" data-overlay></div>
+<header>
 
-<div class="icons">
-<img src="./assets/A futuristic car icon Drawn in red ink and with (2) JOSS AUTO.odg" alt="Website-icon">
-<style>
-
-</style>
-
-</div>
-
-<nav class="navbar active" data-navbar>
-<ul class="nav-bar">
-<li><a href="#home" class="navbar-link" data-nav-link>HOME</a></li>
-<li><a href="#garage" class="navbar-link" data-nav-link>GARAGE</a></li>
-<li><a href="#car hire"class="navbar-link" data-nav-link>CAR HIRE</a></li>
-<li><a href="#auto-shop"class="navbar-link" data-nav-link>AUTO-SHOP</a></li>
-<li><a href="#rescue"class="navbar-link" data-nav-link>RESCUE</a></li>
-<li><a href="#contact"class="navbar-link" data-nav-link>CONTACT</a></li>
+<div class="nav-container">
+<i class='bx bx-menu-alt-left' id="menu-icon"></i>
+<a href="#" class="logo">Joss<span>Auto</span></a>
+<ul class="navbar">
+<li><a href="#home" class="active">Home</a></li>
+<li><a href="#garage">Garage</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#parts">Parts</a></li>
+<li><a href="#blog">Blog</a></li>
+<li><a href="#contact">Contact</a></li>
 </ul>
-</nav>
+<i class='bx bx-search-alt-2' id="search-icon"></i>
+<div class="searchbox">
+    <input type="search" name="" id="" placeholder="search here ....">
+</div>
 <div class="header-actions">
 <div class="header-contact">
 <a href="tel;0112345678" class="contact-link">0112345678</a>
 <span class="contact-time">Mon-Sat:9:00 am - 6.00 pm</span>
 </div>
 </div>
+</div>
 
 </div>
 </header>
-<form>
-<i class="fas fa-search"></i>
-<div class="search-box"></div>
-<input type="text" name="" id="search-item" placeholder="search products">
-</div>
-</form>
 
 </div>
  
@@ -66,7 +57,7 @@
 <img id="rounded"src="assets/nissan skyline car-hire.jpg" alt="">
 </section>
 <section id="img-content">
-<h1>Get the best advice & service charges from the best<br><span> $ CAR DOCTORS $ . </span><br>Join the Journey to a new adventure of CARS.</h1>
+<h1><span>CAR DOCTORS. </span><br>Join the Journey to a new adventure of CARS.</h1>
 </section>
 <section class="cars" id="service-cars">
 <div id="garage">
@@ -75,76 +66,127 @@
 <P>Welcome to your trusted car hub.</P>
 </div>
 
-<div id="car-hire">
-<span>HIRE THE BEST NISSAN CARS</span>
-<h3>Welcome to your car rental HUB</h3>
-<p>Get the best services.</p>
+
 <!-- TRAILING DIV -->
+<div id="car-hire">
+    <span>HIRE THE BEST NISSAN CARS</span>
+    <h3>Welcome to your car rental HUB</h3>
+    <p>Get the best services.</p>
 <div id="garage-container"></div>
  
-
- 
-
 </div>
-<div>
+<div class="shop">
 <span>GET THE BEST QUALITY ACCESSORIES <br> FROM TRUSTED SUPPLIERS</span>
 <h4>YOUR CAR DOCTORS</h4>
-<P>ORDER NOW TO GET DISCOUNTED PRICES.</P>
+<P>ORDER NOW TO GET <br> DISCOUNTED <br> PRICES.</P>
 </div>
+<section>
+<div class="auto-shop">
+    <div class="box">
+        <img src="https://media.istockphoto.com/id/1407671794/photo/tire-hotel-concept.webp?b=1&s=170667a&w=0&k=20&c=lP2yZl52wSz9A6KKNSxDpZGR6PH-1Qns6D_IynMDIY0=" alt="">
+        <h5>YANA TIRES</h5>
+        <span>$ksh.9500</span>
+        <i class='bx bx-star'>(26 Reviews)</i>
+        <a href="#" class="btn">Buy Now</a>
+        <a href="#" class="details">View Deatils</a>
+    </div>
+    <div class="box">
+        <img src="https://media.istockphoto.com/id/1206068901/photo/three-automotive-spark-plugs-on-a-black-background.jpg?s=612x612&w=0&k=20&c=G3dYFHWX3wMhzHqFE3csiUXhQSFG4NkQEFAbqiTneIM=" alt="">
+        <h5>DENSO SPARK PLUG</h5>
+        <span>$ksh.2500</span>
+        <i class='bx bx-star'>(86 Reviews)</i>
+        <a href="#" class="btn">Buy Now</a>
+        <a href="#" class="details">View Deatils</a>
+    </div>
+    <div class="box">
+        <img src="https://media.istockphoto.com/id/1472450130/photo/the-composition-different-car-accessories.webp?b=1&s=170667a&w=0&k=20&c=8m9Vn8AgdMYRO-VH-4ff1_cPpw3UMB8ynHRIdBNgMUU=" alt="">
+        <h5>OIL FILTER</h5>
+        <span>$ksh.1800</span>
+        <i class='bx bx-star'>(13 Reviews)</i>
+        <a href="#" class="btn">Buy Now</a>
+        <a href="#" class="details">View Deatils</a>
+    </div>
+    <div class="box">
+        <img src="https://media.istockphoto.com/id/1270823213/photo/replacement-of-cabin-pollen-air-filter-for-a-car.webp?b=1&s=170667a&w=0&k=20&c=ALSe48djGBDyTAOLaMtrOshlPTRvwSa6WZ0WNsGOnqw=" alt="">
+        <h5>AIR FILTER</h5>
+        <span>$ksh.4500</span>
+        <i class='bx bx-star'>(24 Reviews)</i>
+        <a href="#" class="btn">Buy Now</a>
+        <a href="#" class="details">View Deatils</a>
+    </div>
+    <div class="box">
+        <img src="https://images.unsplash.com/photo-1590227763209-821c686b932f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW5naW5lJTIwb2lsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="">
+        <h5>ENEOS ENGINE OIL</h5>
+        <span>$ksh.6500</span>
+        <i class='bx bx-star'>(66 Reviews)</i>
+        <a href="#" class="btn">Buy Now</a>
+        <a href="#" class="details">View Deatils</a>
+    </div>
+    <div class="box">
+        <img src="https://media.istockphoto.com/id/1090942148/photo/car-rims-or-wheels-in-store-rows-of-new-alloy-automobile-disks.jpg?s=612x612&w=0&k=20&c=g2yJWsmRBgB52l5_1rAh3WZdTc1mEeGrCVDlZHwBSPg=" alt="">
+        <h5>ALLOY CAR WHEEL</h5>
+        <span>$ksh.7500</span>
+        <i class='bx bx-star'>(21 Reviews)</i>
+        <a href="#" class="btn">Buy Now</a>
+        <a href="#" class="details">View Deatils</a>
+    </div>
+
+</div>
+</div>
+</section>
 <div id="cars-container">
 </div>
 <!-- <div id="auto-shop">
 </div> -->
-</section>
 <footer class="footer">
-<div class="footer-container">
-<div class="row">
-<div class="footer-col">
-<h4><Cc:noie>COMPANY</Cc:noie></h4>
-<ul>
-<li><a href="#">about us</a></li>
-<li><a href="#">our services</a></li>
-<li><a href="#">privacy policy</a></li>
-<li><a href="#">affiliate program</a></li>
-</ul>
-</div>
-<div class="footer-col">
-<h4>GET HELP</h4>
-<ul>
-<li><a href="#">FAQ</a></li>
-<li><a href="#">shipping</a></li>
-<li><a href="#">returns</a></li>
-<li><a href="#">order status</a></li>
-<li><a href="#">payment options</a></li>
-<li><a href="#">get rescue car</a></li>
-</ul>
-</div>
-<div class="footer-col">
-<h4>ONLINE SHOP</h4>
-<ul>
-<li><a href="#">car diagnostic sysytem</a></li>
-<li><a href="#">Engine oil</a></li>
-<li><a href="#">Oil / Air filter</a></li>
-<li><a href="#">AMG rims</a></li>
-<li><a href="#">Tires</a></li>
-</ul>
-</div>
-<div class="footer-col">
-<h4>FOLLOW US</h4>
-<div class="social-links">
-<a href="#"><i class="fab fa-facebook-messenger"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
-<a href="#"><i class="fab fa-twitter"></i></a>
-<a href="#"><i class="fab fa-linkedin-in"></i></a>
-<a href="#"><i class="fab fa-whatsapp"></i></a>
-</div>
-</div>
-</div>
-</div>
- 
-
-</div>
-</footer>
+    <div class="footer-container">
+    <div class="row">
+    <div class="footer-col">
+    <h4><Cc:noie>COMPANY</Cc:noie></h4>
+    <ul>
+    <li><a href="#">about us</a></li>
+    <li><a href="#">our services</a></li>
+    <li><a href="#">privacy policy</a></li>
+    <li><a href="#">affiliate program</a></li>
+    </ul>
+    </div>
+    <div class="footer-col">
+    <h4>GET HELP</h4>
+    <ul>
+    <li><a href="#">FAQ</a></li>
+    <li><a href="#">shipping</a></li>
+    <li><a href="#">returns</a></li>
+    <li><a href="#">order status</a></li>
+    <li><a href="#">payment options</a></li>
+    <li><a href="#">get rescue car</a></li>
+    </ul>
+    </div>
+    <div class="footer-col">
+    <h4>ONLINE SHOP</h4>
+    <ul>
+    <li><a href="#">car diagnostic sysytem</a></li>
+    <li><a href="#">Engine oil</a></li>
+    <li><a href="#">Oil / Air filter</a></li>
+    <li><a href="#">AMG rims</a></li>
+    <li><a href="#">Tires</a></li>
+    </ul>
+    </div>
+    <div class="footer-col">
+    <h4>FOLLOW US</h4>
+    <div class="social-links">
+    <a href="#"><i class="fab fa-facebook-messenger"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    </div>
+    </div>
+    </div>
+     
+    
+    </div>
+    </footer>
 
 <script src="./index.js"></script>
 </body>

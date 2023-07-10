@@ -80,41 +80,8 @@ rentalPrice.innerText = `Rental Price: ${car.rental_price}`;
 container.appendChild(rentalPrice);
 }
  
+let search = document.querySelector(".searchbox");
 
- 
-
-
-function autoshop(){
-fetch('http://localhost:3000/auto_shop')
-.then(response => response.json())
-.then((data)=>data.forEach(element=>{auto(element)}))
- 
-
+document.querySelector("#search-icon") .onclick = () => {
+    search.classList.toggle('active');
 }
- 
-
-function auto(spare) {
-let container = document.querySelector("#auto-shop");
- 
-
-// let image = document.createElement("img");
-img.id="autoImg"
-// image.src = spare.model;
-container.appendChild(image);
- 
-
-let itemPrice = document.createElement("h1");
-itemPrice.innerText = spare.year;
-container.appendChild(itemPrice);
- 
-
-let quantity = document.createElement("p");
-quantity.innerText = spare.model;
-container.appendChild(quantity);
- 
-
-let description = document.createElement("h1");
-description.innerText = `Description: ${spare.description}`;
-container.appendChild(description);
-}
- 
